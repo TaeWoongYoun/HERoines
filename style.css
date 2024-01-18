@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.backImg{
+    width: 100%;
+    height: 770px;
+    background: linear-gradient(to top, blue, green);
+}
+
+.backnone{
+    width: 100%;
+    height: 1200px;
+}
+
+.backImg2{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to top, black, aliceblue);
+}
+
+main{
+    margin-top: -2770px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+}
+
+.mainNone{
+    width: 100%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.line{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+}
+
+.con1{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+.con2{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.content2{
+    width: 100%;
+    height: 800px;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: turquoise;
+}
+
+.top{
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+}
+
+.bottom{
+    width: 100%;
+    height: 50%;
+    background-color: thistle;
+}
+
+.content3{
+    width: 100%;
+    height: 600px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+}
+
+.textBox{
+    width: 50%;
+    height: 100%;
+    background-color: teal;
+}
+
+.noneBox{
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+
+.content4{
+    width: 100%;
+    height: 500px;
+    background-color: crimson;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
