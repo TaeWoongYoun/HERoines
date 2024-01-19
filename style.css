@@ -4,7 +4,20 @@
     box-sizing: border-box;
 }
 
+.back{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.front{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
 .backImg{
+    /* position: fixed; */
     width: 100%;
     height: 770px;
     background: linear-gradient(to top, blue, green);
@@ -13,6 +26,7 @@
 .backnone{
     width: 100%;
     height: 1200px;
+    z-index: 2;
 }
 
 .backImg2{
@@ -22,9 +36,8 @@
 }
 
 main{
-    margin-top: -2770px;
     position: relative;
-    z-index: 1;
+    /* overflow: hidden; */
     width: 100%;
 }
 
